@@ -1,5 +1,5 @@
 # 2d-shooter-game
-Continuing off of a uni project: in the process of remastering + fixing bugs.
+Continuing off of a uni project: in the process of remastering + fixing bugs + adding features.
 
 Current method to run: open 2 terminals
 * In one terminal, run `npm start`
