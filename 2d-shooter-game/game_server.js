@@ -130,8 +130,6 @@ app.post('/api/createScore', function (req, res) {
  * To get past this middleware, all requests should be sent with appropriate
  * credentials. Now this is not secure, but this is a first step.
  *
- * Authorization: Basic YXJub2xkOnNwaWRlcm1hbg==
- * Authorization: Basic " + btoa("user:password"); in javascript
 **/
 app.use('/api/auth', function (req, res,next) {
 	if (!req.headers.authorization) {
