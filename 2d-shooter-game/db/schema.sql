@@ -1,5 +1,3 @@
---- load with 
---- psql "dbname='webdb' user='webdbuser' password='password' host='localhost'" -f schema.sql
 DROP TABLE tankGameScore;
 DROP TABLE tankGameParameters;
 DROP TABLE tankGameUser;
